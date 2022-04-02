@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "main.css" />
+        <title>Yonsei Digital Asset</title>
+    </head>
+
+    <body>
+        <h1>Welcome to Yonsei Digital Asset</h1>
+        <p>You can find your own digital asset</p>
+
+        <p>
+            <a href="login.html">Sign In</a> |
+            <a href="signup.html">Sign Up</a> 
+        </p>
+
+        <p>Create your account first</p>
+
+        <hr>
+
+        <form method="POST" action="www.example.com">
+            <p>
+                <label>Name
+                    <input name="name" type="text" size="25" maxlength="30" placeholder="Insert your name" required autofocus />
+                </label>
+            </p>
+            <p>
+                <label>Date of Birth
+                    <input name="date" type="date" required />
+                </label>
+            </p>
+            <p>
+                <label>Class of
+                    <input name="number" type="number" min="2010" max="2030" step="1" value="2022" required />
+                </label> (2010~2030)
+            </p>
+            <p>
+                <label>Tel
+                    <input name="tel" type="tel" placeholder="(###) ###-####" required pattern="\(\d{3}\) \d{3}-\d{4}" />
+                </label>
+            </p>
+            <p>
+                <label>E-mail
+                    <input name="email" type="email" placeholder="name@domain.com" required />
+                </label>
+            </p>
+            <p>
+                <label>User ID
+                    <input name="id" type="text" size="25" maxlength="30" placeholder="아이디를 입력하세요" required />
+                </label>
+            </p>
+            <p>
+                <label>Password
+                    <input name="password" type="password" placeholder="비밀번호를 입력하세요" required />
+                </label>
+            </p>
+            <p>
+                <input class="button1" type="submit" name="submit" value="Submit" />
+                <input class="button2" type="reset" name="cancel" value="Cancel" />                
+            </p>
+            
+
+            
+        </form>
+    </body>
+</html>
