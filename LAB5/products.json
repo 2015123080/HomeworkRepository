@@ -1,0 +1,40 @@
+[
+    {
+        "name" : "yonsei jacket white",
+        "price" : 20000,
+        "image" : "yonsei_jacket.jpg",
+        "type" : "jackets"
+    },
+    {
+        "name" : "yonsei jacket black",
+        "price" : 20000,
+        "image" : "yonsei_jacket_black.jfif",
+        "type" : "jackets"
+    },
+    {
+        "name" : "yonsei jacket blue",
+        "price" : 20000,
+        "image" : "yonsei_jacket_blue.jfif",
+        "type" : "jackets"
+    },
+
+    {
+        "name" : "yonsei cap blue",
+        "price" : 10000,
+        "image" : "yonsei_cap_blue.jpg",
+        "type" : "caps"
+    },
+    {
+        "name" : "yonsei cap white",
+        "price" : 10000,
+        "image" : "yonsei_cap_white.jfif",
+        "type" : "caps"
+    },
+    
+    {
+        "name" : "yonsei cap logo",
+        "price" : 10000,
+        "image" : "yonsei_cap_logo.jfif",
+        "type" : "caps"
+    }
+]
